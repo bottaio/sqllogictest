@@ -663,6 +663,7 @@ SELECT a-b,
 ----
 52 values hashing to de7705618b1cddff30f17f3cfd1b86ab
 
+@exclude flux
 query I rowsort
 SELECT CASE a+1 WHEN b THEN 111 WHEN c THEN 222
         WHEN d THEN 333  WHEN e THEN 444 ELSE 555 END
@@ -3685,6 +3686,7 @@ SELECT (a+b+c+d+e)/5,
 127
 385
 
+@exclude flux
 query I rowsort
 SELECT (a+b+c+d+e)/5
   FROM t1
@@ -6391,6 +6393,7 @@ SELECT c-d,
 ----
 119 values hashing to bfe4d06f73a191d0b43685cefb316775
 
+@exclude flux
 query I rowsort
 SELECT a+b*2+c*3
   FROM t1
@@ -7420,6 +7423,7 @@ SELECT a+b*2+c*3+d*4
 ----
 30 values hashing to fd6d6825820cf653aceb2d72af4a5983
 
+@exclude flux
 query I rowsort
 SELECT abs(a)
   FROM t1
@@ -10302,6 +10306,7 @@ SELECT CASE WHEN a<b-3 THEN 111 WHEN a<=b THEN 222
 191
 1918
 
+@exclude flux
 query II rowsort
 SELECT a+b*2,
        abs(a)

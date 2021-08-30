@@ -3894,6 +3894,7 @@ SELECT x32,x34,x57,x11,x52,x51,x12,x47,x20,x38,x36
 ----
 11 values hashing to f876acfea2d5bd35b9b0585b749ebcd6
 
+@exclude flux
 query TTTTTTTTTTT valuesort join-11-3
 SELECT x32,x34,x57,x11,x52,x51,x12,x47,x20,x38,x36
   FROM t47,t11,t34,t51,t20,t38,t36,t52,t57,t12,t32
@@ -3911,6 +3912,7 @@ SELECT x32,x34,x57,x11,x52,x51,x12,x47,x20,x38,x36
 ----
 11 values hashing to f876acfea2d5bd35b9b0585b749ebcd6
 
+@exclude flux
 query TTTTTTTTTTT valuesort join-11-4
 SELECT x24,x31,x40,x52,x64,x19,x30,x15,x54,x5,x46
   FROM t52,t46,t15,t40,t31,t24,t5,t54,t64,t30,t19
@@ -4485,6 +4487,7 @@ SELECT x15,x45,x61,x10,x57,x9,x64,x1,x7,x23,x12,x52,x31,x55
    AND a31=b52
 ----
 14 values hashing to 14b4ffeaaf5a7a27b5287eaa15bf05b8
+
 
 query TTTTTTTTTTTTTT valuesort join-14-2
 SELECT x15,x45,x61,x10,x57,x9,x64,x1,x7,x23,x12,x52,x31,x55

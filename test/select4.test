@@ -4781,6 +4781,7 @@ EXCEPT
 ----
 30 values hashing to f66083788254f867bdf175ec53c26848
 
+@exclude flux
 query T valuesort
   SELECT a3 FROM t3
    WHERE (b3=340 OR 913=e3 OR c3=601)
@@ -4850,6 +4851,7 @@ UNION ALL
 ----
 25 values hashing to 900a39c026f5a2962590e6f7633b11c8
 
+@exclude flux
 query T valuesort
   SELECT a1 FROM t1
    WHERE c1 in (871,393,346,136,966,230)
@@ -8235,6 +8237,7 @@ EXCEPT
 ----
 34 values hashing to 7e71d26703b4753a02536cb5d0eeeada
 
+@exclude flux
 query T valuesort
   SELECT b2 FROM t2
    WHERE (249=d2 AND a2=954 AND 386=e2 AND c2=450 AND 527=b2)
@@ -8307,6 +8310,7 @@ EXCEPT
 ----
 15 values hashing to 7abf92cdd99fe30fedf7995a337bbfa2
 
+@exclude flux
 query T valuesort
   SELECT e9 FROM t9
    WHERE (142=d9)
@@ -10835,6 +10839,7 @@ UNION ALL
 ----
 17 values hashing to 393578fe4b40e07c51130a4673e9c521
 
+@exclude flux
 query T valuesort
   SELECT a7 FROM t7
    WHERE (c7=98 AND 395=d7 AND a7=130 AND b7=120)
@@ -11265,6 +11270,7 @@ EXCEPT
 742
 841
 
+@exclude flux
 query T valuesort
   SELECT d2 FROM t2
    WHERE b2 in (311,38,161,351,897,226,599,985,170,859,634,674)
@@ -12095,6 +12101,7 @@ UNION ALL
 ----
 15 values hashing to 22fd8cd8a6f1dbf22107a0afbd529235
 
+@exclude flux
 query T valuesort
   SELECT e5 FROM t5
    WHERE (569=b5 AND d5=757 AND a5=976 AND c5=313 AND 209=e5)
@@ -12853,6 +12860,7 @@ UNION ALL
 ----
 17 values hashing to b52b0560b35f1a53294df7d8e3794953
 
+@exclude flux
 query T valuesort
   SELECT e8 FROM t8
    WHERE (d8=197 AND 6=b8 AND a8=400 AND 381=e8)
@@ -14553,6 +14561,7 @@ UNION ALL
 ----
 35 values hashing to f6f95d6cf7718590ee811d06d615b1ea
 
+@exclude flux
 query T valuesort
   SELECT a7 FROM t7
    WHERE (e7=506 OR 906=c7)
@@ -14771,6 +14780,7 @@ UNION
 ----
 48 values hashing to 3a85eaeefbb189f7c100692369d156f5
 
+@exclude flux
 query T valuesort
   SELECT e1 FROM t1
    WHERE (426=b1 AND 23=a1 AND 441=c1 AND 696=e1 AND 88=d1)
@@ -17276,6 +17286,7 @@ UNION
 666
 88
 
+@exclude flux
 query T valuesort
   SELECT c2 FROM t2
    WHERE (688=c2 AND 983=e2 AND 113=b2)
@@ -18946,6 +18957,7 @@ UNION
 880
 992
 
+@exclude flux
 query T valuesort
   SELECT c8 FROM t8
    WHERE (563=a8 AND d8=761 AND c8=762)
@@ -21755,6 +21767,7 @@ UNION ALL
 ----
 16 values hashing to 2a5eee2ab3017f364810d53ee81d7e27
 
+@exclude flux
 query T valuesort
   SELECT c5 FROM t5
    WHERE (e5=971 AND 960=d5 AND 774=c5 AND b5=495)
@@ -22444,6 +22457,7 @@ UNION ALL
 ----
 18 values hashing to ef6dadfc41e319b3e7877b0c71f71f0b
 
+@exclude flux
 query T valuesort
   SELECT b7 FROM t7
    WHERE a7 in (758,147,950,158,439,684,299,574,452,130,848,290,806,416)
@@ -22821,6 +22835,7 @@ UNION ALL
 ----
 37 values hashing to eba923fa58e717cd0e81370351a1dda1
 
+@exclude flux
 query T valuesort
   SELECT a9 FROM t9
    WHERE (410=b9 AND e9=723 AND 149=a9)
@@ -23764,6 +23779,7 @@ UNION
 ----
 20 values hashing to ec5562c74a7b6c5e39049425863c28d7
 
+@exclude flux
 query T valuesort
   SELECT c9 FROM t9
    WHERE a9 in (450,962,567,511,149,815)
@@ -25903,6 +25919,7 @@ EXCEPT
 ----
 899
 
+@exclude flux
 query T valuesort
   SELECT c7 FROM t7
    WHERE (e7=903)
@@ -27648,6 +27665,7 @@ UNION ALL
 ----
 25 values hashing to 8035cc4360eaa234b2407b8e77d2437f
 
+@exclude flux
 query T valuesort
   SELECT e8 FROM t8
    WHERE (e8=56 AND b8=862 AND 321=c8 AND 312=a8 AND 945=d8)
@@ -27945,6 +27963,7 @@ UNION ALL
 ----
 46 values hashing to 955162f146ef0ecf58986d6d3d7d457b
 
+@exclude flux
 query T valuesort
   SELECT a2 FROM t2
    WHERE (901=a2 AND 264=b2 AND 312=c2)
